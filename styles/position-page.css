@@ -1,1 +1,67 @@
+body {
+	background: url(../images/outerspace_landscape.jpeg);
+	background-size: cover;
+}
+nav {
+	position: fixed;
+	padding: 0px 80px;
+	top: 0;
+}
 
+.navbar {
+	height: 60px;
+	width: 100%;
+	background-color: gray;
+	margin: 0px;
+	padding: 0px 60px;
+	text-align: left;
+}
+
+nav ul {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.logo {
+	height: 50px;
+	border-radius: 100%;
+	border: 1px solid black;
+	margin: 5px 0px;
+	position: absolute;
+	left: 60px;
+	display: inline-block;
+}
+
+.buttons {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.divider {
+	margin: 0px 5px;
+}
+
+.box {
+	width: 600px;
+	height: 300px;
+	margin: 200px auto 0 auto;
+	border: 10px green dotted;
+	position: relative;
+}
+
+.spacers {
+	height: 200px;
+	width: 200px;
+}
+
+.cat {
+	position: absolute;
+	left:-100px;
+	top: -100px;
+}
+
+.dog {
+	position: absolute;
+	left: 500px;
+	top:  200px;
+}
